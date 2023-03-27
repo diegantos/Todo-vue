@@ -4,12 +4,8 @@
         <span>{{ completed.length }} out of {{ todoList.length }} completed</span>
     </div>
     <div class="buttons">
-        <button @click="deleteAllItems">
-            <v-btn variant="tonal">Delete all</v-btn>
-        </button>
-        <button @click="removeAllDeleted">
-            <v-btn variant="tonal">Clear completed</v-btn>
-        </button>
+        <v-btn variant="tonal" @click="deleteAllItems">Delete all</v-btn>
+        <v-btn variant="tonal" @click="removeAllDeleted">Clear completed</v-btn>
     </div>
     <div v-for="todo in todoList" :key="todo.id">
         <div class="content">
