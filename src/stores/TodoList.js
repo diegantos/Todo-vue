@@ -8,7 +8,7 @@ export const useTodoListStore = defineStore('todoList' , {
     }),
     getters:{
         orderByItem(){
-            return this.todoList = this.todoList.sort((a, b) => a.item - b.item)
+            return this.todoList.sort((a, b) =>  a.item - b.item)
         }
     },
     actions:{
