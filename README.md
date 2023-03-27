@@ -2,7 +2,7 @@
 ![Imagen del proyecto](https://user-images.githubusercontent.com/118907489/227875518-fca6e935-fea3-4228-a056-4df3a5ecf932.png)
 
 ## Ejemplo en vivo
-- [Enlace directo Portfolio audiovisual](https://creative.diegantos.com/)
+- [Realiza pruebas en directo](glittering-fairy-todo-vue.netlify.app)
 <!-- - [URL-de-la-api](URL-de-la-api) -->
 
 ## Descripción 📑
